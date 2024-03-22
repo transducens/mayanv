@@ -1,0 +1,61 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MayanV
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Andrés
+    family-names: Lou
+    email: and_lou@ua.es
+    affiliation: Universitat d'Alacant
+  - given-names: Felipe
+    family-names: Sánchez Martínez
+    email: fsanchez@dlsi.ua.es
+    affiliation: Universitat d'Alacant
+  - given-names: Víctor
+    name-particle: M
+    family-names: Sánchez Cartagena
+    email: vmsanchez@dlsi.ua.es
+    affiliation: Universitat d'Alacant
+  - given-names: Juan Antonio
+    family-names: Pérez Ortiz
+    email: japerez@dlsi.ua.es
+    affiliation: Universitat d'Alacant
+repository-code: 'https://github.com/transducens/mayanv'
+url: 'https://transducens.github.io/tan-maya/'
+abstract: >-
+  The Mayan languages comprise a language family with an
+  ancient history, millions of speakers, and immense
+  cultural value, that, nevertheless, remains severely
+  underrepresented in terms of resources and global
+  exposure. In this paper we develop, curate, and publicly
+  release a set of corpora in several Mayan languages spoken
+  in Guatemala and Southern Mexico, which we call MayanV.
+  The datasets are parallel with Spanish, the dominant
+  language of the region, and are taken from official native
+  sources focused on representing informal, day-to-day, and
+  non-domain-specific language. As such, and according to
+  our dialectometric analysis, they differ in register from
+  most other available resources. Additionally, we present
+  and release neural machine translation models, trained on
+  as many resources and Mayan languages as possible, and
+  evaluated exclusively on our datasets. We observe lexical
+  divergences between the dialects of Spanish used in the
+  resources we present and the more widespread written
+  standard of Spanish, and that resources other than the
+  ones we present do not seem to improve translation
+  performance, indicating that many such resources may not
+  accurately capture common, real-life language usage.
+keywords:
+  - naacl2024
+  - mayan_corpora
+  - mayanv
+  - low_resource_languages
+license: CC0-1.0
+commit: b6029f356b32c3d320d6adf21700eaa34edcfa7b
+version: '1.0'
+date-released: '2024-03-22'
