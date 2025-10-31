@@ -2,6 +2,29 @@
 
 This repository contains MayanV, a collection of parallel corpora between several Mayan languages and Spanish. MayanV is introduced in the paper ["Curated Datasets and Neural Models for Machine Translation of Informal Registers between Mayan and Spanish Vernaculars"](https://aclanthology.org/2024.naacl-long.156/), accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics, NAACL2024.
 
+## Erratum
+A critial error was discovered in the Tzeltal and Ixil datasets. Consequently, all corresponding experiments have been corrected and repeated. The table below replaces Table 5 in the original paper. The Tzeltal and Ixil datasets have been temporarily removed pending revisions. The revised versions will be reuploaded shortly.
+
+|  | maya-es |  |  |  | es-maya |  |  |  |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  | bilingual |  | multilingual |  | bilingual |  | multilingual |  |
+|  | baseline | mayanv | baseline | mayanv | baseline | mayanv | baseline | mayanv |
+| acr | - | - | 0,7 | 1,8 | - | - | 0 | 0.1 |
+| agu | - | 0 | 0,3 | 1,2 | - | 0 | 0,1 | 0.3 |
+| cac | - | 0,1 | 0,1 | 4,5 | - | 0,1 | 0 | 3.8 |
+| itz | - | - | 0,6 | 1 | - | - | 0,1 | 0.1 |
+| ixl | 0,3 | 8,4 | 0,2 | 7,8 | 0 | 1,3 | 0,1 | 6.1 |
+| kek | 0,6 | 7,2 | 2,4 | 10,2 | 1,1 | 8 | 2,8 | 14.0 |
+| kjb | - | 3,5 | 0,2 | 5,6 | - | 4 | 0 | 7.3 |
+| mam | 0,9 | 3,8 | 1,1 | 3,9 | 0,2 | 1 | 0,4 | 1.4 |
+| poc | - | 5,2 | 0,3 | 8,7 | - | 1,8 | 0 | 5.8 |
+| poh | - | 0,2 | 1,3 | 5 | - | 0,3 | 2,7 | 2.5 |
+| quc | - | 2,9 | 3 | 5,6 | 2,1 | 3,3 | 5,7 | 6.2 |
+| qum | - | - | 0,6 | 1,8 | - | - | 0,1 | 0.1 |
+| ttc | - | 6,9 | 0,7 | 11,2 | - | 7,1 | 0 | 11.2 |
+| tzh | 0.86 | 10.6 | 1,8 | 9,4 | 1.0 | 6.9 | 2,3 | 8.7 |
+| tzj | - | 0 | 0,2 | 4,6 | - | 0,1 | 0,1 | 3.5 |
+
 ## Included languages
 
 MayanV includes curated parallel corpora for Spanish and the following Mayan languages spoken in Guatemala and Southern Mexico:
