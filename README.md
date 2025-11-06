@@ -3,7 +3,7 @@
 This repository contains MayanV, a collection of parallel corpora between several Mayan languages and Spanish. MayanV is introduced in the paper ["Curated Datasets and Neural Models for Machine Translation of Informal Registers between Mayan and Spanish Vernaculars"](https://aclanthology.org/2024.naacl-long.156/), accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics, NAACL2024.
 
 ## Erratum
-A critial error was discovered in the Tzeltal and Ixil datasets. Consequently, all corresponding experiments have been corrected and repeated. The table below replaces Table 5 in the original paper. The Tzeltal and Ixil datasets have been temporarily removed pending revisions. The revised versions will be reuploaded shortly.
+A critical error was discovered in the Tzeltal and Ixil datasets. Consequently, all corresponding experiments have been corrected and repeated. The table below replaces Table 5 in the original paper. The Tzeltal and Ixil datasets have been temporarily removed pending revisions. The revised versions will be reuploaded shortly.
 
 |  | maya-es |  |  |  | es-maya |  |  |  |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
