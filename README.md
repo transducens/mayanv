@@ -1,51 +1,37 @@
-# MayanV, Mayan-Spanish parallel corpora
+# MayanV2, Mayan-Spanish parallel corpora
 
-This repository contains MayanV, a collection of parallel corpora between several Mayan languages and Spanish. MayanV is introduced in the paper ["Curated Datasets and Neural Models for Machine Translation of Informal Registers between Mayan and Spanish Vernaculars"](https://aclanthology.org/2024.naacl-long.156/), accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics, NAACL2024.
+This repository contains MayanV2 (MayanV v2), an annotated collection of parallel corpora between several Mayan languages and Spanish. MayanV (v1) was first introduced in the paper ["Curated Datasets and Neural Models for Machine Translation of Informal Registers between Mayan and Spanish Vernaculars"](https://aclanthology.org/2024.naacl-long.156/), accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics, NAACL2024.
+
+## Changes introduced in v2
+MayanV2 is a upgrade from MayanV that introduces additional languages, additional parallel sentences, and diverse annotations, including part-of-speech, inflection, and dialect, whenever these are available. MayanV2 is a further improvement because of the use of enhanced extraction methodology centered around the use of Google's Gemini Pro 2.5 model.
+
+| ISO code 	| Language            	| Sentences 	|  Words (Mayan) 	|
+|:--------:	|---------------------	|:---------:	|:------:	|
+|    acr   	| Achi                	|    1563   	|  7641  	|
+|    agu   	| Awakatek            	|    3094   	|  12512 	|
+|  agu_ctk 	| Awakatek/Chalchitek 	|    3319   	|  15452 	|
+|    cac   	| Chuj                	|    5763   	|  26881 	|
+|    cak   	| Kaqchikel           	|    6227   	|  49148 	|
+|    ctk   	| Chalchitek          	|    991    	|  6158  	|
+|    itz   	| Itzaʼ               	|    1522   	|  6050  	|
+|    ixl   	| Ixil                	|    4571   	|  22769 	|
+|    jac   	| Jakaltek/Poptiʼ     	|    4384   	|  26001 	|
+|    kek   	| Qʼeqchiʼ            	|   10863   	|  59165 	|
+|    kjb   	| Qʼanjobʼal          	|    2987   	|  18432 	|
+|    mam   	| Mam                 	|   15229   	| 101706 	|
+|    poc   	| Poqomam             	|    3659   	|  18864 	|
+|    poh   	| Poqomchiʼ           	|    1746   	|  6544  	|
+|    quc   	| Kʼicheʼ             	|    2624   	|  14484 	|
+|    qum   	| Sipakapense         	|    1344   	|  9363  	|
+|    ttc   	| Tektiteko           	|    3974   	|  24492 	|
+|    tzh   	| Tzʼeltal            	| 12733     	| 66227  	|
+|    tzj   	| Tzʼutujil           	| 13211     	| 66738  	|
+
+## Documents included in MayanV2
+The most important addition to MayanV2 is the inclusion of a collection of previously unreleased dictionaries, whose annotations are included in the corpus. These annotations are not uniform across languages, given the asynchronous publication history and the different language communities and editorial teams involved. The dictionaries, along with the documents included in the previous release, have been extracted using Google Gemini Pro 2.5 and have been meticulously structured and curated using the available metadata. All documents are released as JSON files.
 
 ## Erratum
-A critical error was discovered in the Tzeltal and Ixil datasets. Consequently, all corresponding experiments have been corrected and repeated. The table below replaces Table 5 in the original paper. The Tzeltal and Ixil datasets have been temporarily removed pending revisions. The revised versions will be reuploaded shortly.
-
-|  | maya-es |  |  |  | es-maya |  |  |  |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  | bilingual |  | multilingual |  | bilingual |  | multilingual |  |
-|  | baseline | mayanv | baseline | mayanv | baseline | mayanv | baseline | mayanv |
-| acr | - | - | 0,7 | 1,8 | - | - | 0 | 0.1 |
-| agu | - | 0 | 0,3 | 1,2 | - | 0 | 0,1 | 0.3 |
-| cac | - | 0,1 | 0,1 | 4,5 | - | 0,1 | 0 | 3.8 |
-| itz | - | - | 0,6 | 1 | - | - | 0,1 | 0.1 |
-| ixl | 0,3 | 8,4 | 0,2 | 7,8 | 0 | 1,3 | 0,1 | 6.1 |
-| kek | 0,6 | 7,2 | 2,4 | 10,2 | 1,1 | 8 | 2,8 | 14.0 |
-| kjb | - | 3,5 | 0,2 | 5,6 | - | 4 | 0 | 7.3 |
-| mam | 0,9 | 3,8 | 1,1 | 3,9 | 0,2 | 1 | 0,4 | 1.4 |
-| poc | - | 5,2 | 0,3 | 8,7 | - | 1,8 | 0 | 5.8 |
-| poh | - | 0,2 | 1,3 | 5 | - | 0,3 | 2,7 | 2.5 |
-| quc | - | 2,9 | 3 | 5,6 | 2,1 | 3,3 | 5,7 | 6.2 |
-| qum | - | - | 0,6 | 1,8 | - | - | 0,1 | 0.1 |
-| ttc | - | 6,9 | 0,7 | 11,2 | - | 7,1 | 0 | 11.2 |
-| tzh | 0.86 | 10.6 | 1,8 | 9,4 | 1.0 | 6.9 | 2,3 | 8.7 |
-| tzj | - | 0 | 0,2 | 4,6 | - | 0,1 | 0,1 | 3.5 |
-
-## Included languages
-
-MayanV includes curated parallel corpora for Spanish and the following Mayan languages spoken in Guatemala and Southern Mexico:
-
-| ISO Code | Language    | Words (Mayan) | Words (Spanish) | Sentences |
-|----------|-------------|--------------:|----------------:|----------:|
-| acr      | Achi        |         6,994 |           7,657 |     1,343 |
-| agu      | Awakatec    |         7,325 |           9,700 |     1,930 |
-| cac      | Chuj        |         9,398 |          10,916 |     2,299 |
-| itz      | Itza’       |         6,069 |           7,512 |     1,539 |
-| ixl      | Ixil        |        10,888 |          12,137 |     2,325 |
-| kek      | Q’eqchi’    |        18,529 |          21,835 |     4,133 |
-| kjb      | Q’anjob’al  |        18,035 |          18,238 |     3,014 |
-| mam      | Mam         |        15,453 |          19,117 |     3,093 |
-| poc      | Poqomam     |        18,039 |          21,744 |     3,583 |
-| poh      | Poqomchi’   |         6,479 |           7,149 |     1,787 |
-| quc      | K’iche’     |        14,468 |          15,474 |     2,632 |
-| qum      | Sipakapense |         9,780 |           9,328 |     1,356 |
-| ttc      | Tektitek    |        23,571 |          24,896 |     4,022 |
-| tzh      | Tzeltal     |       103,309 |         128,659 |    19,846 |
-| tzj      | Tz’utujil   |        12,283 |          11,404 |     2,519 |
+A critical error was discovered in the Tzeltal and Ixil datasets in the previous release. Consequently, all corresponding experiments have been corrected and repeated. See the [erratum]() for additional details.
 
 Sources for each corpus are discussed in the article. The datasets are parallel with Spanish, the dominant language of the region, and are taken from official native sources focused on representing informal, day-to-day, and non-domain-specific language.
 
