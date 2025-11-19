@@ -2,7 +2,7 @@ Awakatek bilingual corpus
 ==========================================================================================================
 
 ## About this corpus
-This package contains an Awakatek corpus extracted from the _[Vocabulario awakateko](https://www.almg.org.gt/wp-content/uploads/2020/09/VOCABULARIO-1.pdf)_ published by the [Guatemalan Academy of Mayan Languages](https://www.almg.org.gt/) (ALMG).
+This package contains an Awakatek corpus extracted from the _[Vocabulario awakateko](https://www.almg.org.gt/wp-content/uploads/2020/09/VOCABULARIO-1.pdf)_ and the _Diccionario awakateko y chalchiteko_, published by the [Guatemalan Academy of Mayan Languages](https://www.almg.org.gt/) (ALMG) and the [Proyecto Lingüístico Francisco Marroquín]()https://plfm.org/ (PLFM).
 
 ## License
 These data are released under the following licensing scheme:

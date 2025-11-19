@@ -2,7 +2,7 @@ Mam bilingual corpus
 ==========================================================================================================
 
 ## About this corpus
-This package contains an Mam corpus extracted from the _[Vocabulario mam](https://www.almg.org.gt/wp-content/uploads/2020/10/VOCABULARIO-3.pdf)_ published by the [Guatemalan Academy of Mayan Languages](https://www.almg.org.gt/) (ALMG).
+This package contains an Mam corpus extracted from the _[Vocabulario mam](https://www.almg.org.gt/wp-content/uploads/2020/10/VOCABULARIO-3.pdf)_, the _Diccionario mam_, and the _Diccionario mam de Ixtahuacán_, published by the [Guatemalan Academy of Mayan Languages](https://www.almg.org.gt/) (ALMG) and the [Proyecto Lingüístico Francisco Marroquín]()https://plfm.org/ (PLFM).
 
 ## License
 These data are released under the following licensing scheme:
